@@ -8,7 +8,7 @@ export default function SocialLogin() {
     response_type: "code",
   };
   const githubParams = {
-    client_id: "40f6203865331fbc",
+    client_id: "f326b5a02e15ca03d716",
     scope: "read:user,user:email",
   };
   const kakaoUrl = `https://kauth.kakao.com/oauth/authorize?${new URLSearchParams(
